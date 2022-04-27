@@ -30,7 +30,7 @@ export const joinApi = async (payload : {
             payload,
             {headers}
         )
-        
+        alert('결과 5')
         return response.data
     } catch (err) {
         return err;
